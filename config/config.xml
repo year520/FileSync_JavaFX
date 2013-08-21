@@ -1,0 +1,21 @@
+<FileSyncProp>
+  <fileSyncbeans>
+    <fileSyncBean>
+      <source>
+        <string>C:\Users\IBM_ADMIN\Desktop\test</string>
+      </source>
+      <target>C:\Users\IBM_ADMIN\Desktop\pigpig</target>
+      <include></include>
+      <exclude></exclude>
+    </fileSyncBean>
+    <fileSyncBean>
+      <source>
+        <string>C:\Users\IBM_ADMIN\Desktop\TSD</string>
+      </source>
+      <target>C:\Users\IBM_ADMIN\Desktop\pigpig</target>
+      <include></include>
+      <exclude></exclude>
+    </fileSyncBean>
+  </fileSyncbeans>
+  <syncTime>1000</syncTime>
+</FileSyncProp>

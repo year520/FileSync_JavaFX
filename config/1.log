@@ -1,0 +1,150 @@
+2013-08-21 10:20:58,569 INFO [orz.china.app.Main orz.china.app.Main.main(Main.java:86)] - start
+2013-08-21 10:21:31,137 INFO [orz.china.app.Main orz.china.app.Main.main(Main.java:86)] - start
+2013-08-21 10:21:35,186 INFO [orz.china.app.Main orz.china.app.Main.main(Main.java:86)] - start
+2013-08-21 10:34:08,626 INFO [orz.china.app.Main orz.china.app.Main.start(Main.java:70)] - start.....
+2013-08-21 10:34:09,314 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - null
+2013-08-21 10:34:09,314 INFO [orz.china.app.Main orz.china.app.Main.getconfigFile(Main.java:41)] - F:\workspace\myFirstFX\config\config.xml
+2013-08-21 10:34:12,389 INFO [orz.china.app.Main orz.china.app.Main.deleteBean(Main.java:147)] - delete bean:TargetPath:C:\Users\IBM_ADMIN\Desktop\test,IncludeRole:,ExcludeRole:,SourcePath:[F:\workspace\myFirstFX\src]
+2013-08-21 10:34:12,400 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:34:12,441 INFO [orz.china.app.Main orz.china.app.Main.writeConfigFile(Main.java:49)] - <FileSyncProp>
+  <fileSyncbeans/>
+  <syncTime>1000</syncTime>
+</FileSyncProp>
+2013-08-21 10:34:12,441 INFO [orz.china.app.Main orz.china.app.Main.getconfigFile(Main.java:41)] - F:\workspace\myFirstFX\config\config.xml
+2013-08-21 10:34:31,752 INFO [orz.china.app.Main orz.china.app.Main.addBean(Main.java:139)] - add bean:TargetPath:C:\Users\IBM_ADMIN\Desktop\pigpig,IncludeRole:,ExcludeRole:,SourcePath:[F:\workspace\myFirstFX\lib, F:\workspace\myFirstFX\src]
+2013-08-21 10:34:31,756 INFO [orz.china.app.Main orz.china.app.Main.writeConfigFile(Main.java:49)] - <FileSyncProp>
+  <fileSyncbeans>
+    <fileSyncBean>
+      <source>
+        <string>F:\workspace\myFirstFX\lib</string>
+        <string>F:\workspace\myFirstFX\src</string>
+      </source>
+      <target>C:\Users\IBM_ADMIN\Desktop\pigpig</target>
+      <include></include>
+      <exclude></exclude>
+    </fileSyncBean>
+  </fileSyncbeans>
+  <syncTime>1000</syncTime>
+</FileSyncProp>
+2013-08-21 10:34:31,756 INFO [orz.china.app.Main orz.china.app.Main.getconfigFile(Main.java:41)] - F:\workspace\myFirstFX\config\config.xml
+2013-08-21 10:34:31,818 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:34:52,004 INFO [orz.china.app.Main orz.china.app.Main.addBean(Main.java:139)] - add bean:TargetPath:C:\Users\IBM_ADMIN\Desktop\TSD,IncludeRole:,ExcludeRole:,SourcePath:[F:\workspace\myFirstFX\src]
+2013-08-21 10:34:52,007 INFO [orz.china.app.Main orz.china.app.Main.writeConfigFile(Main.java:49)] - <FileSyncProp>
+  <fileSyncbeans>
+    <fileSyncBean>
+      <source>
+        <string>F:\workspace\myFirstFX\lib</string>
+        <string>F:\workspace\myFirstFX\src</string>
+      </source>
+      <target>C:\Users\IBM_ADMIN\Desktop\pigpig</target>
+      <include></include>
+      <exclude></exclude>
+    </fileSyncBean>
+    <fileSyncBean>
+      <source>
+        <string>F:\workspace\myFirstFX\src</string>
+      </source>
+      <target>C:\Users\IBM_ADMIN\Desktop\TSD</target>
+      <include></include>
+      <exclude></exclude>
+    </fileSyncBean>
+  </fileSyncbeans>
+  <syncTime>1000</syncTime>
+</FileSyncProp>
+2013-08-21 10:34:52,007 INFO [orz.china.app.Main orz.china.app.Main.getconfigFile(Main.java:41)] - F:\workspace\myFirstFX\config\config.xml
+2013-08-21 10:34:52,070 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:34:55,360 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:34:55,361 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:34:55,361 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:34:55,367 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:34:55,372 INFO [orz.china.filesync.util.FileSyncUtil orz.china.filesync.util.FileSyncUtil.deleteFile(FileSyncUtil.java:19)] - delete file:C:\Users\IBM_ADMIN\Desktop\pigpig
+2013-08-21 10:34:55,372 INFO [orz.china.filesync.util.FileSyncUtil orz.china.filesync.util.FileSyncUtil.deleteFile(FileSyncUtil.java:33)] - delete file:C:\Users\IBM_ADMIN\Desktop\pigpig
+2013-08-21 10:34:55,441 INFO [orz.china.filesync.util.FileSyncUtil orz.china.filesync.util.FileSyncUtil.copyDirectory(FileSyncUtil.java:48)] - copy Directory:source:F:\workspace\myFirstFX\lib--- target:C:\Users\IBM_ADMIN\Desktop\pigpig  filter:FileSyncFilter
+2013-08-21 10:34:56,126 INFO [orz.china.filesync.util.FileSyncUtil orz.china.filesync.util.FileSyncUtil.copyDirectory(FileSyncUtil.java:48)] - copy Directory:source:F:\workspace\myFirstFX\src--- target:C:\Users\IBM_ADMIN\Desktop\pigpig  filter:FileSyncFilter
+2013-08-21 10:34:56,229 INFO [orz.china.filesync.util.FileSyncUtil orz.china.filesync.util.FileSyncUtil.deleteFile(FileSyncUtil.java:19)] - delete file:C:\Users\IBM_ADMIN\Desktop\TSD
+2013-08-21 10:34:56,230 INFO [orz.china.filesync.util.FileSyncUtil orz.china.filesync.util.FileSyncUtil.deleteFile(FileSyncUtil.java:33)] - delete file:C:\Users\IBM_ADMIN\Desktop\TSD
+2013-08-21 10:34:56,286 INFO [orz.china.filesync.util.FileSyncUtil orz.china.filesync.util.FileSyncUtil.copyDirectory(FileSyncUtil.java:48)] - copy Directory:source:F:\workspace\myFirstFX\src--- target:C:\Users\IBM_ADMIN\Desktop\TSD  filter:FileSyncFilter
+2013-08-21 10:35:49,880 INFO [orz.china.app.Main orz.china.app.Main.deleteBean(Main.java:147)] - delete bean:TargetPath:C:\Users\IBM_ADMIN\Desktop\TSD,IncludeRole:,ExcludeRole:,SourcePath:[F:\workspace\myFirstFX\src]
+2013-08-21 10:35:49,888 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:35:49,891 INFO [orz.china.app.Main orz.china.app.Main.writeConfigFile(Main.java:49)] - <FileSyncProp>
+  <fileSyncbeans>
+    <fileSyncBean>
+      <source>
+        <string>F:\workspace\myFirstFX\lib</string>
+        <string>F:\workspace\myFirstFX\src</string>
+      </source>
+      <target>C:\Users\IBM_ADMIN\Desktop\pigpig</target>
+      <include></include>
+      <exclude></exclude>
+    </fileSyncBean>
+  </fileSyncbeans>
+  <syncTime>1000</syncTime>
+</FileSyncProp>
+2013-08-21 10:35:49,891 INFO [orz.china.app.Main orz.china.app.Main.getconfigFile(Main.java:41)] - F:\workspace\myFirstFX\config\config.xml
+2013-08-21 10:35:51,148 INFO [orz.china.app.Main orz.china.app.Main.deleteBean(Main.java:147)] - delete bean:TargetPath:C:\Users\IBM_ADMIN\Desktop\pigpig,IncludeRole:,ExcludeRole:,SourcePath:[F:\workspace\myFirstFX\lib, F:\workspace\myFirstFX\src]
+2013-08-21 10:35:51,156 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:35:51,158 INFO [orz.china.app.Main orz.china.app.Main.writeConfigFile(Main.java:49)] - <FileSyncProp>
+  <fileSyncbeans/>
+  <syncTime>1000</syncTime>
+</FileSyncProp>
+2013-08-21 10:35:51,158 INFO [orz.china.app.Main orz.china.app.Main.getconfigFile(Main.java:41)] - F:\workspace\myFirstFX\config\config.xml
+2013-08-21 10:36:06,575 INFO [orz.china.app.Main orz.china.app.Main.addBean(Main.java:139)] - add bean:TargetPath:C:\Users\IBM_ADMIN\Desktop\pigpig,IncludeRole:,ExcludeRole:,SourcePath:[C:\Users\IBM_ADMIN\Desktop\test]
+2013-08-21 10:36:06,578 INFO [orz.china.app.Main orz.china.app.Main.writeConfigFile(Main.java:49)] - <FileSyncProp>
+  <fileSyncbeans>
+    <fileSyncBean>
+      <source>
+        <string>C:\Users\IBM_ADMIN\Desktop\test</string>
+      </source>
+      <target>C:\Users\IBM_ADMIN\Desktop\pigpig</target>
+      <include></include>
+      <exclude></exclude>
+    </fileSyncBean>
+  </fileSyncbeans>
+  <syncTime>1000</syncTime>
+</FileSyncProp>
+2013-08-21 10:36:06,578 INFO [orz.china.app.Main orz.china.app.Main.getconfigFile(Main.java:41)] - F:\workspace\myFirstFX\config\config.xml
+2013-08-21 10:36:06,603 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:36:20,991 INFO [orz.china.app.Main orz.china.app.Main.addBean(Main.java:139)] - add bean:TargetPath:C:\Users\IBM_ADMIN\Desktop\pigpig,IncludeRole:,ExcludeRole:,SourcePath:[C:\Users\IBM_ADMIN\Desktop\TSD]
+2013-08-21 10:36:20,994 INFO [orz.china.app.Main orz.china.app.Main.writeConfigFile(Main.java:49)] - <FileSyncProp>
+  <fileSyncbeans>
+    <fileSyncBean>
+      <source>
+        <string>C:\Users\IBM_ADMIN\Desktop\test</string>
+      </source>
+      <target>C:\Users\IBM_ADMIN\Desktop\pigpig</target>
+      <include></include>
+      <exclude></exclude>
+    </fileSyncBean>
+    <fileSyncBean>
+      <source>
+        <string>C:\Users\IBM_ADMIN\Desktop\TSD</string>
+      </source>
+      <target>C:\Users\IBM_ADMIN\Desktop\pigpig</target>
+      <include></include>
+      <exclude></exclude>
+    </fileSyncBean>
+  </fileSyncbeans>
+  <syncTime>1000</syncTime>
+</FileSyncProp>
+2013-08-21 10:36:20,994 INFO [orz.china.app.Main orz.china.app.Main.getconfigFile(Main.java:41)] - F:\workspace\myFirstFX\config\config.xml
+2013-08-21 10:36:21,018 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:36:24,027 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:36:24,027 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:36:24,027 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:36:24,027 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:36:24,028 INFO [orz.china.filesync.util.FileSyncUtil orz.china.filesync.util.FileSyncUtil.deleteFile(FileSyncUtil.java:19)] - delete file:C:\Users\IBM_ADMIN\Desktop\pigpig
+2013-08-21 10:36:24,028 INFO [orz.china.filesync.util.FileSyncUtil orz.china.filesync.util.FileSyncUtil.deleteFile(FileSyncUtil.java:33)] - delete file:C:\Users\IBM_ADMIN\Desktop\pigpig
+2013-08-21 10:36:24,096 INFO [orz.china.filesync.util.FileSyncUtil orz.china.filesync.util.FileSyncUtil.copyDirectory(FileSyncUtil.java:48)] - copy Directory:source:C:\Users\IBM_ADMIN\Desktop\test--- target:C:\Users\IBM_ADMIN\Desktop\pigpig  filter:FileSyncFilter
+2013-08-21 10:36:24,952 INFO [orz.china.filesync.util.FileSyncUtil orz.china.filesync.util.FileSyncUtil.deleteFile(FileSyncUtil.java:19)] - delete file:C:\Users\IBM_ADMIN\Desktop\pigpig
+2013-08-21 10:36:24,952 INFO [orz.china.filesync.util.FileSyncUtil orz.china.filesync.util.FileSyncUtil.deleteFile(FileSyncUtil.java:33)] - delete file:C:\Users\IBM_ADMIN\Desktop\pigpig
+2013-08-21 10:36:24,971 INFO [orz.china.filesync.util.FileSyncUtil orz.china.filesync.util.FileSyncUtil.copyDirectory(FileSyncUtil.java:48)] - copy Directory:source:C:\Users\IBM_ADMIN\Desktop\TSD--- target:C:\Users\IBM_ADMIN\Desktop\pigpig  filter:FileSyncFilter
+2013-08-21 10:36:34,547 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:36:34,547 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:36:34,547 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:36:34,548 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - orz.china.filesync.beans.FileSyncProp@1742aa03
+2013-08-21 10:36:45,638 INFO [orz.china.filesync.util.FileSyncUtil orz.china.filesync.util.FileSyncUtil.copyFile(FileSyncUtil.java:25)] - copy file:source:C:\Users\IBM_ADMIN\Desktop\TSD\log4j - Copy.properties--- target:C:\Users\IBM_ADMIN\Desktop\pigpig\log4j - Copy.properties
+2013-08-21 10:36:49,688 INFO [orz.china.filesync.util.FileSyncUtil orz.china.filesync.util.FileSyncUtil.copyFile(FileSyncUtil.java:25)] - copy file:source:C:\Users\IBM_ADMIN\Desktop\TSD\log4j - Copy - Copy.properties--- target:C:\Users\IBM_ADMIN\Desktop\pigpig\log4j - Copy - Copy.properties
+2013-08-21 10:36:52,754 INFO [orz.china.filesync.util.FileSyncUtil orz.china.filesync.util.FileSyncUtil.copyFile(FileSyncUtil.java:25)] - copy file:source:C:\Users\IBM_ADMIN\Desktop\TSD\log4j - Copy - Copy - Copy.properties--- target:C:\Users\IBM_ADMIN\Desktop\pigpig\log4j - Copy - Copy - Copy.properties
+2013-08-21 10:58:07,875 INFO [orz.china.app.Main orz.china.app.Main.start(Main.java:70)] - start.....
+2013-08-21 10:58:08,256 INFO [orz.china.app.Main orz.china.app.Main.getFileSyncProp(Main.java:54)] - null
+2013-08-21 10:58:08,257 INFO [orz.china.app.Main orz.china.app.Main.getconfigFile(Main.java:41)] - F:\workspace\myFirstFX\config\config.xml

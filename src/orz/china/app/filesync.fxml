@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" disable="false" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="346.0" prefWidth="600.0" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="orz.china.app.FileSyncController">
+  <children>
+    <Label layoutX="25.0" layoutY="26.0" text="Config file" />
+    <TextField id="" fx:id="configPath" disable="true" layoutX="90.0" layoutY="23.0" prefWidth="370.0" />
+    <Button id="" fx:id="browsebtn" layoutX="471.0" layoutY="24.0" mnemonicParsing="false" onAction="#browsehandle" style="" text="Browse" />
+    <TableView fx:id="config" layoutX="14.0" layoutY="70.0" prefHeight="200.0" prefWidth="516.0" />
+    <Button id="monitoringBtn" fx:id="monitoringbtn" disable="false" layoutX="284.0" layoutY="300.0" mnemonicParsing="false" onAction="#monitoringhandle" prefWidth="80.0" text="monitoring" />
+    <Button id="stopBtn" fx:id="stopbtn" disable="true" layoutX="450.0" layoutY="300.0" mnemonicParsing="false" onAction="#stophandle" prefWidth="80.0" text="stop" />
+    <Label fx:id="errorMsg" layoutX="14.0" layoutY="278.0" prefWidth="392.0" text="" textFill="RED" />
+    <Button id="" fx:id="addbtn" cancelButton="false" defaultButton="false" depthTest="INHERIT" disable="true" layoutX="535.0" layoutY="105.0" mnemonicParsing="false" onAction="#addhandle" prefWidth="59.0" text="Add" textOverrun="CLIP" underline="false" />
+    <Button id="" fx:id="modifybtn" depthTest="INHERIT" disable="true" layoutX="535.0" layoutY="137.0" mnemonicParsing="false" onAction="#modifyhandle" prefWidth="59.0" text="Modify" />
+    <Button id="" fx:id="deletebtn" depthTest="INHERIT" disable="true" layoutX="535.0" layoutY="170.0" mnemonicParsing="false" onAction="#deletehandle" prefWidth="59.0" text="Delete" />
+    <Button id="monitoringBtn" fx:id="syncAllbtn" disable="false" layoutX="130.0" layoutY="300.0" mnemonicParsing="false" onAction="#syncAllhandle" prefWidth="80.0" text="syncAll" />
+  </children>
+</AnchorPane>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileSyncProp>
+	<fileSyncbeans>
+		<fileSyncBean>
+			<source>
+				<string>C:/Users/IBM_ADMIN/Desktop/test</string>
+				<string>C:/Users/IBM_ADMIN/Desktop/others</string>
+			</source>
+			<target>C:/Users/IBM_ADMIN/Desktop/test1</target>
+			<include></include>
+			<exclude>pdf</exclude>
+		</fileSyncBean>
+	</fileSyncbeans>
+</FileSyncProp>

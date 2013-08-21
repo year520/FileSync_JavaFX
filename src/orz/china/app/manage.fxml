@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ * Copyright (c) 2008, 2012 Oracle and/or its affiliates.
+ * All rights reserved. Use is subject to license terms.
+ *
+ * This file is available and licensed under the following license:
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ *  - Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ *  - Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in
+ *    the documentation and/or other materials provided with the distribution.
+ *  - Neither the name of Oracle Corporation nor the names of its
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="Profile" cache="false" disable="false" focusTraversable="false" minWidth="-Infinity" mouseTransparent="false" prefHeight="302.0000999999975" prefWidth="595.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="orz.china.app.ConfigController">
+  <children>
+    <Pane layoutX="0.0" layoutY="0.0" prefHeight="302.0" prefWidth="595.0" style="-fx-background-color:white">
+      <children>
+        <Label layoutX="52.0" layoutY="27.0" text="target folder:" textAlignment="LEFT" />
+        <Label alignment="CENTER_RIGHT" layoutX="52.0" layoutY="59.0" prefWidth="69.0" text="include:" textAlignment="LEFT" />
+        <Label alignment="CENTER_RIGHT" layoutX="52.0" layoutY="89.0" prefWidth="69.0" text="exclude:" textAlignment="LEFT" />
+        <Label layoutX="44.0" layoutY="119.0" prefWidth="77.0" text="source folder:" />
+        <TextField fx:id="target" disable="true" layoutX="129.0" layoutY="27.0" prefWidth="372.0" />
+        <TextField id="source" fx:id="include" layoutX="129.0" layoutY="59.0" prefWidth="372.0" />
+        <TextField fx:id="exclude" layoutX="129.0" layoutY="89.0" prefWidth="372.0" />
+        <TableView fx:id="source" layoutX="129.0" layoutY="118.0" prefHeight="143.0" prefWidth="372.0" />
+        <Button fx:id="targebtn" layoutX="510.0" layoutY="28.0" mnemonicParsing="false" onAction="#targethandle" prefWidth="69.0" text="Browse" />
+        <Button fx:id="addbtn" defaultButton="false" disable="true" layoutX="512.0" layoutY="148.0" mnemonicParsing="false" onAction="#addhandle" prefWidth="69.0" text="Add" />
+        <Button fx:id="deletebtn" disable="true" layoutX="512.0" layoutY="206.0" mnemonicParsing="false" onAction="#deletehandle" prefWidth="69.0" text="Delete" />
+        <Button fx:id="modifybtn" disable="true" layoutX="512.0" layoutY="177.0" mnemonicParsing="false" onAction="#modifyhandle" prefWidth="69.0" text="Modify" />
+        <Label alignment="TOP_RIGHT" layoutX="24.0" layoutY="27.0" prefWidth="28.0" style="" text="*" textFill="RED" />
+        <Label alignment="TOP_RIGHT" layoutX="16.0" layoutY="125.0" prefWidth="28.0" style="" text="*" textFill="RED" />
+        <Button id="addbtn" fx:id="commitbtn" layoutX="188.0" layoutY="278.0" mnemonicParsing="false" onAction="#commithandle" prefWidth="69.0" text="commit" />
+        <Button id="addbtn" layoutX="323.0" layoutY="278.0" mnemonicParsing="false" onAction="#exithandle" prefWidth="69.0" text="exit" />
+        <Label fx:id="errorMsg" layoutX="38.0" layoutY="262.0" prefWidth="516.0" text="" textFill="RED" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>
